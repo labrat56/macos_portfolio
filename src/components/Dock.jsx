@@ -31,7 +31,7 @@ const Dock = () => {
                     icon, {
                         scale: 1 + 0.3 * intensity,
                         y: -15 * intensity,
-                        duration:
+                        duration: 0.2,
                         ease: "power1.out",
                     });
             });
